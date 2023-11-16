@@ -6,9 +6,9 @@ let apiName = process.env.API_NAME
 let apikey = process.env.API_KEY
 
 const encodedParams = new URLSearchParams();
-encodedParams.set('message', '{"type":"text","text":"Hello user, Api test hello world number 2"}');
+encodedParams.set('message', '{"type":"text","text":"Hello user, Api test hello world number 3"}');
 encodedParams.set('channel', 'whatsapp');
-encodedParams.set('source', '917834811114');
+encodedParams.set('source', '51954331133');
 encodedParams.set('destination', '51953293108');
 encodedParams.set('src.name', apiName);
 encodedParams.set('disablePreview', 'false');
